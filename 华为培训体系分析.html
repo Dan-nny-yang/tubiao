@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华为项目培训体系合理性分析（事中管控）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "SimHei", sans-serif;
+        }
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .main-title {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            color: #212529;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #007bff;
+        }
+        .mind-map {
+            list-style: none;
+            margin-left: 0;
+        }
+        /* 一级节点 */
+        .mind-map > li {
+            position: relative;
+            padding: 15px 0 15px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .mind-map > li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 22px;
+            width: 30px;
+            height: 2px;
+            background-color: #007bff;
+        }
+        /* 二级节点 */
+        .sub-map {
+            list-style: none;
+            margin: 5px 0 0 50px;
+        }
+        .sub-map > li {
+            position: relative;
+            padding: 10px 0 10px 35px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #28a745;
+            border-left: 2px solid #28a745;
+        }
+        .sub-map > li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 18px;
+            width: 25px;
+            height: 2px;
+            background-color: #28a745;
+        }
+        .sub-map > li:last-child {
+            border-left: 2px solid transparent;
+        }
+        /* 三级节点 */
+        .third-map {
+            list-style: none;
+            margin: 3px 0 0 45px;
+        }
+        .third-map > li {
+            position: relative;
+            padding: 8px 0 8px 30px;
+            font-size: 14px;
+            color: #333;
+            border-left: 2px solid #17a2b8;
+        }
+        .third-map > li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 15px;
+            width: 20px;
+            height: 2px;
+            background-color: #17a2b8;
+        }
+        .third-map > li:last-child {
+            border-left: 2px solid transparent;
+        }
+        /* 四级节点 */
+        .fourth-map {
+            list-style: none;
+            margin: 2px 0 0 40px;
+        }
+        .fourth-map > li {
+            position: relative;
+            padding: 6px 0 6px 25px;
+            font-size: 13px;
+            color: #6c757d;
+            line-height: 1.6;
+            border-left: 2px solid #6c757d;
+        }
+        .fourth-map > li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 12px;
+            width: 18px;
+            height: 2px;
+            background-color: #6c757d;
+        }
+        .fourth-map > li:last-child {
+            border-left: 2px solid transparent;
+        }
+        /* 适配移动端 */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 20px;
+            }
+            .mind-map > li {
+                font-size: 16px;
+                padding-left: 30px;
+            }
+            .sub-map {
+                margin-left: 30px;
+            }
+            .sub-map > li {
+                font-size: 15px;
+                padding-left: 25px;
+            }
+            .third-map {
+                margin-left: 25px;
+            }
+            .fourth-map {
+                margin-left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main-title">培训体系合理性分析（事中管控，降低“培训不到位导致的流失”）</h1>
+    <ul class="mind-map">
+        <li>核心定位
+            <ul class="sub-map">
+                <li>培训的核心价值：连接“招聘”与“上岗”的关键环节</li>
+                <li>体系不合理的负面影响
+                    <ul class="third-map">
+                        <li>内容/形式/考核与岗位脱节→培训后不会做、不敢做</li>
+                        <li>上岗后压力大、能力不足→人员被迫离职</li>
+                        <li>培训无留存引导→降低人员归属感</li>
+                        <li>无法提升能力，直接加剧培训后流失率</li>
+                    </ul>
+                </li>
+                <li>体系合理性的关键作用
+                    <ul class="third-map">
+                        <li>直接决定人员上岗后的适配效率</li>
+                        <li>匹配华为项目高标准的核心要求</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>具体执行动作（可落地、可量化）
+            <ul class="sub-map">
+                <li>培训内容复盘
+                    <ul class="third-map">
+                        <li>复盘依据：对照华为项目甲方明确要求</li>
+                        <li>甲方核心要求包含
+                            <ul class="fourth-map">
+                                <li>华为业务知识、系统操作、话术规范</li>
+                                <li>合规要求、应急处理流程</li>
+                                <li>高压场景应对技巧</li>
+                            </ul>
+                        </li>
+                        <li>三大核心核查维度
+                            <ul class="fourth-map">
+                                <li>是否贴合华为实际岗位需求，有无“理论偏多、实操不足”问题</li>
+                                <li>内容难度是否合理，是否循序渐进，能否独立完成基础工作</li>
+                                <li>是否包含项目文化/岗位认知/上岗支撑体系，是否传递岗位价值与留存引导</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>培训形式与师资复盘
+                    <ul class="third-map">
+                        <li>当前核心问题：老师单向讲授，学员被动倾听→时间利用率低、吸收效果差</li>
+                        <li>核心优化方向：打造“互动式、实操式、分层式”三维培训模式</li>
+                        <li>优化核心培训模式（解决时间利用率低痛点）
+                            <ul class="fourth-map">
+                                <li>实操主导模式：理论≤30%，70%华为真实场景实操，分组练+巡回指导+当场纠错</li>
+                                <li>互动研讨模式：案例抛出→分组研讨→代表发言→老师点评，深化知识点理解</li>
+                                <li>分层教学模式：按基础分班，薄弱组练基础，较好组练进阶，实现精准培训</li>
+                                <li>以考促学模式：每节结束5-10分钟实操+理论小考核，不通过当场补训</li>
+                            </ul>
+                        </li>
+                        <li>培训形式细节优化
+                            <ul class="fourth-map">
+                                <li>增加情景模拟+角色扮演，还原华为真实工作场景</li>
+                                <li>导师一对一结对：每2-3名学员配1名华为项目资深导师，实操全程跟进</li>
+                                <li>每日错题复盘会：汇总共性错误，集中讲解10分钟，压缩无效时间</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
